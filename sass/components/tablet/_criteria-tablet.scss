@@ -1,0 +1,11 @@
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+	.criteria_list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.criteria_item {
+		width: 354px;
+		height: 251px;
+	}
+}

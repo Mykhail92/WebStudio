@@ -1,0 +1,38 @@
+.clients {
+	padding: 60px 0;
+}
+.clients_header {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 1.17;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+.clients_list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.clients_link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 170px;
+	height: 92px;
+	outline: 1px solid #afb1b8;
+	border-radius: 4px;
+	color: var(--icon-color);
+	transition: color 250ms var(--hover-time), outline 250ms var(--hover-time);
+}
+.clients_link:hover,
+.clients_link:focus {
+	color: var(--accent-color);
+	outline-color: var(--accent-color);
+}
+.clients_item {
+	margin-top: 30px;
+}
+.clients_icon {
+	fill: currentColor;
+}
