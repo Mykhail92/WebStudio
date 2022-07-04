@@ -15,23 +15,29 @@
 }
 
 .clients_link {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 170px;
-	height: 92px;
 	outline: 1px solid #afb1b8;
 	border-radius: 4px;
 	color: var(--icon-color);
 	transition: color 250ms var(--hover-time), outline 250ms var(--hover-time);
+	@media screen and (max-width: 767px) {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		width: 210px;
+		height: 92px;
+	}
 }
+
 .clients_link:hover,
 .clients_link:focus {
 	color: var(--accent-color);
 	outline-color: var(--accent-color);
 }
 .clients_item {
-	margin-top: 30px;
+	@media screen and (max-width: 1199px) {
+		margin-top: 30px;
+	}
 }
 .clients_icon {
 	fill: currentColor;

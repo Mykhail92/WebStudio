@@ -1,0 +1,16 @@
+@media screen and (min-width: 1200px) {
+	.team {
+		padding: 94px 0px;
+	}
+	.team-list {
+		display: flex;
+	}
+
+	.team-item {
+		width: 270px;
+		height: 428px;
+	}
+	.team-item:not(:last-child) {
+		margin-right: 30px;
+	}
+}

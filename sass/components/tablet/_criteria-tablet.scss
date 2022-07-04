@@ -7,5 +7,8 @@
 	.criteria_item {
 		width: 354px;
 		height: 251px;
+		&:nth-child(-n + 2) {
+			margin-bottom: 30px;
+		}
 	}
 }

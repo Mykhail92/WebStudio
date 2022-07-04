@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+	.products {
+		padding: 60px 0px;
+	}
+	.products-list .products-item:not(:last-child):nth-child(-n + 3) {
+		margin-bottom: 0px;
+	}
+	.flex-list {
+		justify-content: space-between;
+	}
+	.flex-link {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+	}
+	.flex-list-border {
+		flex-grow: 1;
+	}
+	.flex-item {
+		width: 354px;
+		// height: 440px;
+		&:not(:last-child) {
+			margin-bottom: 30px;
+		}
+	}
+}

@@ -1,0 +1,19 @@
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+	.footer-tablet {
+		display: flex;
+		align-items: baseline;
+		justify-content: space-between;
+	}
+	.footer-position {
+		padding-left: 76px;
+	}
+	.footer-networks {
+		padding-right: 89px;
+		margin: 0;
+	}
+	.footer-input {
+		display: block;
+		width: 450px;
+		margin: 0 auto;
+	}
+}

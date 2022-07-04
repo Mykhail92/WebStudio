@@ -12,5 +12,9 @@
 		width: 354px;
 		height: 536px;
 		background-color: white;
+
+		&:nth-child(-n + 2) {
+			margin-bottom: 30px;
+		}
 	}
 }

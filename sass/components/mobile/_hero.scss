@@ -34,7 +34,6 @@
 	cursor: pointer;
 }
 .hero-title {
-	max-width: 360px;
 	margin: 0 auto;
 	margin-bottom: 30px;
 
@@ -44,4 +43,7 @@
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	color: #ffffff;
+	@media screen and(max-width:1199px) {
+		max-width: 360px;
+	}
 }

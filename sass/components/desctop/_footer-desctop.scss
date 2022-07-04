@@ -1,0 +1,26 @@
+@media screen and (min-width: 1200px) {
+	.container.footer-container {
+		display: flex;
+		align-items: baseline;
+	}
+	.footer-tablet {
+		display: flex;
+		align-items: baseline;
+	}
+	.footer-networks__header {
+		text-align: start;
+	}
+	.footer-networks {
+		margin-left: 70px;
+		margin-right: 93px;
+	}
+	.footer-subscription__form {
+		display: flex;
+		align-items: flex-end;
+		height: 50px;
+	}
+	.footer-input {
+		width: 358px;
+		margin-right: 12px;
+	}
+}

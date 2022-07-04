@@ -9,15 +9,17 @@
 	align-items: center;
 	justify-content: center;
 	background-color: #f5f4fa;
+
 	&:not(:last-child) {
 		margin-bottom: 30px;
 	}
 }
 .criteria_item {
 	height: 226px;
-
-	&:not(:last-child) {
-		margin-bottom: 30px;
+	@media screen and (max-width: 767px) {
+		&:not(:last-child) {
+			margin-bottom: 30px;
+		}
 	}
 }
 
@@ -29,8 +31,11 @@
 	line-height: 1.14;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	text-align: center;
+
 	color: var(--secondary-header);
+	@media screen and (max-width: 767px) {
+		text-align: center;
+	}
 }
 .criteria_paragraf {
 	font-weight: 400;
