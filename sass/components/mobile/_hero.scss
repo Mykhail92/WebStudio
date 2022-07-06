@@ -10,10 +10,24 @@
 				rgba(47, 48, 58, 0.4),
 				rgba(47, 48, 58, 0.4)
 			),
-			url(../images/hero.jpg);
+			url(../../../images/mobile/Header.webp);
+
+		width: 100%;
+		max-width: 480px;
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
+
+		@media (min-device-pixel-ratio: 2),
+			(min-resolution: 192dpi),
+			(min-resolution: 2dppx) {
+			background-image: linear-gradient(
+					rgba(47, 48, 58, 0.4),
+					rgba(47, 48, 58, 0.4)
+				),
+				url(../../../images/mobile/Header_x2.webp);
+			background-size: cover;
+		}
 	}
 }
 .hero__btn {

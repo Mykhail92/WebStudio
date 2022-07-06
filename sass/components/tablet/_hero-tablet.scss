@@ -12,9 +12,20 @@
 				rgba(47, 48, 58, 0.4),
 				rgba(47, 48, 58, 0.4)
 			),
-			url(../images/hero.jpg);
+			url(../../../images/tablet/Header.webp);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
+
+		@media (min-device-pixel-ratio: 2),
+			(min-resolution: 192dpi),
+			(min-resolution: 2dppx) {
+			background-image: linear-gradient(
+					rgba(47, 48, 58, 0.4),
+					rgba(47, 48, 58, 0.4)
+				),
+				url(../../../images/tablet/Header_x2.webp);
+			background-size: cover;
+		}
 	}
 }
