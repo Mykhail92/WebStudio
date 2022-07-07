@@ -1636,6 +1636,11 @@ textarea::placeholder {
     padding: 94px 0px;
   }
 
+  .team-header {
+    margin-bottom: 50px;
+    font-size: 36px;
+  }
+
   .team-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1658,6 +1663,7 @@ textarea::placeholder {
 
   .clients_header {
     margin-bottom: 50px;
+    font-size: 36px;
   }
 
   .clients_link {
@@ -1682,6 +1688,7 @@ textarea::placeholder {
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
+    text-align: start;
   }
 
   .footer-tablet {
