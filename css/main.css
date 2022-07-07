@@ -1397,6 +1397,10 @@ textarea::placeholder {
   }
 }
 @media screen and (min-width: 1200px) {
+  .logo {
+    font-size: 26px;
+  }
+
   .container-header {
     display: -webkit-box;
     display: -ms-flexbox;
